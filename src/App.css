@@ -1,0 +1,74 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10em;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  color: black;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  /* animation: 3s infinite alternate caution; */
+}
+
+.warning-container {
+  display: flex;
+  justify-content: center;
+}
+.warning {
+  width: 25%;
+}
+
+.header-container {
+  width: 100%;
+  background-color: #f9d63d;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+@keyframes caution {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(10px);
+  }
+  20% {
+    transform: translateX(20px);
+  }
+  30% {
+    transform: translateX(30px);
+  }
+  40% {
+    transform: translateX(40px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  60% {
+    transform: translateX(60px);
+  }
+  70% {
+    transform: translateX(70px);
+  }
+  80% {
+    transform: translateX(80px);
+  }
+  90% {
+    transform: translateX(90px);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
